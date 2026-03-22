@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Avinab Mukhia</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: #f5f5f5; color: #222; }
+
+        header {
+            background: #1a1a2e;
+            color: white;
+            padding: 50px 40px;
+            text-align: center;
+        }
+        header h1 { font-size: 2.5rem; margin-bottom: 8px; }
+        header p { font-size: 1.1rem; color: #a0aec0; }
+
+        nav {
+            background: #16213e;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: #a0aec0;
+            text-decoration: none;
+            font-size: 0.95rem;
+            letter-spacing: 0.05em;
+            transition: color 0.2s;
+        }
+        nav a:hover { color: white; }
+
+        section {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        section h2 {
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+            border-left: 4px solid #4f46e5;
+            padding-left: 12px;
+            color: #1a1a2e;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 24px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        }
+        .card h3 { font-size: 1.1rem; color: #1a1a2e; margin-bottom: 4px; }
+        .card p { color: #6b7280; font-size: 0.9rem; margin-bottom: 10px; }
+        .card ul { padding-left: 18px; color: #374151; font-size: 0.95rem; }
+        .card ul li { margin-bottom: 4px; }
+
+        #skills ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        #skills ul li {
+            background: #4f46e5;
+            color: white;
+            padding: 8px 18px;
+            border-radius: 999px;
+            font-size: 0.9rem;
+        }
+
+        #contact p { margin-bottom: 8px; color: #374151; }
+        #contact a { color: #4f46e5; text-decoration: none; }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #9ca3af;
+            font-size: 0.85rem;
+            margin-top: 40px;
+            border-top: 1px solid #e5e7eb;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Avinab Mukhia</h1>
+    <p>Director of Client Success | IIM Bangalore BBA DBE '28</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p style="color:#374151; font-size:1rem;">I lead Client Success at Snapscale, managing delivery, retention, and scaling operations for US healthcare clients. I focus on building high-performing teams and driving growth.</p>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+
+    <div class="card">
+        <h3>Director of Client Success</h3>
+        <p>Snapscale · 2022 – Present</p>
+        <ul>
+            <li>Scaled Team India and improved hiring pipeline</li>
+            <li>Implemented Spark Hire and Comeet</li>
+            <li>Managed client escalations and retention</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Client Experience Manager</h3>
+        <p>Snapscale · 2022</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Leadership & People Management</li>
+        <li>Client Relationship Management</li>
+        <li>Operational Excellence</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        <p>📧 <a href="mailto:dtp.tensai@gmail.com">dtp.tensai@gmail.com</a></p>
+        <p>💼 <a href="https://linkedin.com/in/avinab-mukhia" target="_blank">linkedin.com/in/avinab-mukhia</a></p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Avinab Mukhia</p>
+</footer>
+
+</body>
+</html>
